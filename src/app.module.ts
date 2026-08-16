@@ -37,6 +37,7 @@ import { ServicesModule } from './modules/services/services.module';
 import { GalleryModule } from './modules/gallery/gallery.module';
 import { TestimonialsModule } from './modules/testimonials/testimonials.module';
 import { ClientVideoReviewsModule } from './modules/client-video-reviews/client-video-reviews.module';
+import { ProjectsModule } from './modules/projects/projects.module';
 
 const ENV = process.env.NODE_ENV;
 
@@ -101,6 +102,7 @@ const ENV = process.env.NODE_ENV;
     GalleryModule,
     TestimonialsModule,
     ClientVideoReviewsModule,
+    ProjectsModule,
   ],
 
   controllers: [AppController],

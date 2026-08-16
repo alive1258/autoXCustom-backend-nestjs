@@ -117,6 +117,13 @@ export const defaultMenus: DefaultMenuItem[] = [
     order: 13,
   },
   {
+    label: 'Projects',
+    href: '/dashboard/projects/all-projects',
+    icon: 'Car',
+    key: 'projects',
+    order: 14,
+  },
+  {
     label: 'question-answers',
     href: '/dashboard/question-answers/all-question-answers',
     icon: 'HelpCircle',
